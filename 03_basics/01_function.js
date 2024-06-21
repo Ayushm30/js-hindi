@@ -29,3 +29,8 @@ function loginUserMessage(username){
     return  `${username} just logged in`
 }
 console.log(loginUserMessage())
+
+function calculate(...num1){
+    return num1;
+}
+console.log(calculate(100,200,500))
