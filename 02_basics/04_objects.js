@@ -15,3 +15,27 @@ const regularUser = {
 }
 
 console.log(tinderUser);
+
+const course = {
+    coursename : "js javscript",
+    price : "99",
+    cousreInstructor :"hitesh"
+}
+
+const {cousreInstructor} = course
+
+console.log(cousreInstructor );
+
+//Deconstructor
+//const navbar ({company}) => {
+//}
+//navbar(company = "hitesh")  
+
+
+//API
+
+//{
+//    "name" : "ayush",
+//    "coursename" : "js in hindi",
+//    "course" : "free"
+//}
